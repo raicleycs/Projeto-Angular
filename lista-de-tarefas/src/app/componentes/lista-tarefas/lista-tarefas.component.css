@@ -1,0 +1,75 @@
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    font-family: sans-serif;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  
+  .add-tarefa {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .add-tarefa input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-tarefa button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-tarefa button:hover {
+    background-color: #0056b3;
+  }
+  
+  .lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista li {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s ease;
+  }
+  
+  .lista li:hover {
+    background-color: #f6f6f6;
+  }
+  
+  .lista li.concluida {
+    text-decoration: line-through;
+    color: #777;
+    background-color: #e9e9e9;
+  }
+  
+  .remover-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remover-btn:hover {
+    background-color: #c82333;
+  }

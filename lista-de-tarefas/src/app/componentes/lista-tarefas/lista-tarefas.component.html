@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="add-tarefa">
+      <input
+        type="text"
+        placeholder="O que precisa ser feito?"
+        [(ngModel)]="novaTarefaTitulo"
+        (keyup.enter)="adicionarTarefa()"
+      >
+      <button (click)="adicionarTarefa()">Adicionar</button>
+    </div>
+    <ul class="lista">
+      <li 
+        *ngFor="let tarefa of tarefas" 
+        [class.concluida]="tarefa.concluida"
+        (click)="alternarStatusTarefa(tarefa.id)"
+      >
+        {{ tarefa.titulo }}
+  
+        <button 
+          class="remover-btn"
+          (click)="$event.stopPropagation(); removerTarefa(tarefa.id)">
+          Remover
+        </button>
+      </li>
+    </ul>
+  </div>
