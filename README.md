@@ -11,12 +11,6 @@ O projeto foi baseado na atividade "Sistema de Gerenciamento de Projetos" propos
 *   **Marcar como concluída:** Clique em uma tarefa para alternar seu status entre pendente e concluída (indicado por um estilo visual diferente).
 *   **Remover tarefas:** Botão para excluir permanentemente uma tarefa da lista.
 
-### Demonstração
-
-
-
-*(Dica: Para criar um GIF como este, você pode usar ferramentas gratuitas como [ScreenToGif](https://www.screentogif.com/) ou [LICEcap](https://www.cockos.com/licecap/)).*
-
 ---
 
 
